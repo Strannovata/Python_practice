@@ -52,10 +52,10 @@
 # Приоритет операций: **, ун +, ун -, *, /, //, %, +, -
 # (), Сокращенные операции
 
-#a = 1.3
-#b = 3
-#c = round((a * b), 5)
-#print(c)
+a = 1.7890
+b = 3
+c = round((a * b), 6)
+print(c)
 
 #a = 3
 #a += 5
@@ -162,14 +162,14 @@
 
 # Функции
 
-def f(x):
-   if x == 1:
-       return 'Целое'
-   elif x == 2.3:
-       return 23
-   else:
-       return
+# def f(x):
+#    if x == 1:
+#        return 'Целое'
+#    elif x == 2.3:
+#        return 23
+#    else:
+#        return
 
-arg = 7
-print(f(arg))
-print(type(f(arg)))
+# arg = 7
+# print(f(arg))
+# print(type(f(arg)))
