@@ -22,9 +22,9 @@ def PolinominalInDegree (k):
             listpol.append(polinom)
             strresult = " + ".join(listpol)
         k-=1
-    data = open('PoliminalInDegree.txt', 'a')
+    data = open('PoliminalInDegree2.txt', 'w')
     data.write(f'{strresult} = 0\n')
     data.close()
 
-PolinominalInDegree(4)
+PolinominalInDegree(2)
 
